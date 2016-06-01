@@ -1,0 +1,227 @@
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #ffffff;
+  	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+	line-height: 28px;
+}
+
+		.progress-bar-theme {
+			background-color: #65C6BB;
+		}
+		
+		#ww {
+			padding-top: 70px;
+			padding-bottom: 70px;
+			background-color: #f2f2f2;
+		}
+		
+		h1, h2, h3, h5, h6 {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			color: #333;
+
+		
+		}
+		
+		h4 {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 700;
+			color: #65C6BB;
+			border-bottom: 1px solid #65C6BB;
+		}
+
+		h1 {
+			font-size: 35px;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+/* Titles */
+b{
+	color: #333;}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+
+a.button{
+	font-family:Montserrat;
+	background: #65C6BB;
+	padding: 10px 35px 10px 35px;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 7px;
+	text-decoration: none;
+	color: #f2f3f5;
+}
+
+a.button2{
+	font-family:Montserrat;
+	background: #FFFFFF;
+	padding: 11px 12px 14px 12px;
+	text-align: center;
+	font-size: 22px;
+	border-radius: 7px;
+	text-decoration: none;
+}
+
+
+a {
+    color: #65C6BB;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.navbar-inverse {
+	background-color: #65C6BB;
+	border-color: #68C3A3;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+
+/* Helpers */
+
+.mt {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.q {
+	font-size: 20px; 
+	font-style: italic;
+	text-align: center;
+}
+
+.footerfont{
+	color: #FFFFFF;
+	font-size: #16px;
+}
+
+
+
+/* Wrap Sections */
+
+#footer {
+	background-color: #f2f2f2;
+	border: top 1px #68C3A3;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects are controlled by hover.zoom.js */
+.zoom { 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+    .zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: #1abc9c;
+}
